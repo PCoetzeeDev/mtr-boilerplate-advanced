@@ -9,3 +9,29 @@ To use, create meteor project with create, then remove all files.
 Then copy bash file into project dir and run.
 
 This will also add some packages for jade template support, autoforms and a few other.
+
+Layout:
+```
+.
+├── client
+│   ├── compatibility
+│   ├── controllers
+│   ├── main.js
+│   ├── routes.js
+│   ├── stylesheets
+│   │   └── main.css
+│   ├── subscribtions.js
+│   └── templates
+├── lib
+│   ├── collections.js
+│   └── schemas.js
+├── main.jade
+├── packages
+├── public
+│   └── images
+├── server
+│   ├── enironment.js
+│   ├── initializations
+│   ├── methods.js
+│   └── publications.js
+└── tests
